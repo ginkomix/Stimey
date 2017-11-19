@@ -120,8 +120,37 @@ main {
     border-radius: 4px;
     border: 1px solid #878368;
 }
+.buttonChangeBlock {
+    width: 100%;
+    font-size: 20px;
+      margin-top: 12px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.buttonChange {
+    width: 90px;
+    height: 51px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  
+    border: 1px solid black;
+   
+    background: #c6c6c6;
+}
+#buttonChangeOn {
+    border-bottom: 0px solid;
+    background: #fafafa;
+}
+#study, #laboratory, #research,#rest,#training,#work,#cooperation{
+   
+}
 
-
+#laboratory, #research, #rest,#training,#work,#cooperation{
+    display: none;
+}
 
 
 
