@@ -8,5 +8,3 @@ $('.buttonChangeBlock div').on('click',function(){
    $('#'+hrefNew).css('display','flex');
    
 });
-
-
