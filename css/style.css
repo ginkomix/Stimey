@@ -314,6 +314,9 @@ main {
 .room-header .room-title h1 {
     font-size: 71px;
 }
+.status-block p {
+	margin-right: 11px;
+}
 .content {
     margin-top:  13px;
 	width: 100%;
